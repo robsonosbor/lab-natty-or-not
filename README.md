@@ -1,20 +1,20 @@
-## 🚀 Desafio de IA: Análise Completa de Vídeo com NotebookLM (Estudo de Caso)
+## Desafio de IA: Análise Completa de Vídeo com NotebookLM (Estudo de Caso)
 
-### 🌌 Agentes Autônomos: Múltiplos Formatos de Conteúdo a Partir de uma Única Transcrição
+### Agentes Autônomos: Múltiplos Formatos de Conteúdo a Partir de uma Única Transcrição
 
 ![Infográfico](https://github.com/robsonosbor/lab-natty-or-not/blob/main/infografico.png)
 
-#### 📒 Descrição
+#### Descrição
 
 Esta experiência demonstra como o **NotebookLM** pode ser usado para transformar a transcrição de um vídeo técnico de 1 hora e 30 minutos em **múltiplos formatos de conteúdo** (texto, visual e didático) em minutos. O objetivo é otimizar o aprendizado e a criação de material educativo.
 
-#### 🤖 Tecnologia Utilizada
+#### Tecnologia Utilizada
 
 * **NotebookLM (Google):** A ferramenta central para carregar a transcrição do vídeo, analisar o conteúdo e gerar todos os formatos de resumo, estudo e estrutura.
 * **Fonte:** Transcrição do vídeo "Construindo Agentes Autônomos com Amazon Nova e AgentCore" (Link: `https://www.youtube.com/watch?v=ZVilMA_Jfrw`).
 * **Notebook de Exemplo:** `https://notebooklm.google.com/notebook/f04156eb-434b-4b2f-abd5-b155fdee9592`
 
-#### 🧐 Processo de Criação (Ações Executadas no NotebookLM)
+#### Processo de Criação (Ações Executadas no NotebookLM)
 
 A transcrição completa do vídeo foi carregada como fonte. O painel de **Prompts** (ou "Assistente") do NotebookLM foi utilizado para gerar os seguintes ativos, todos referenciados à transcrição:
 
@@ -28,7 +28,7 @@ A transcrição completa do vídeo foi carregada como fonte. O painel de **Promp
 | **Roteiro de Vídeo** | "Escreva um roteiro de 60 segundos com 5 cenas para um vídeo curto (Reel/TikTok) explicando o que é um Agente Autônomo." | Geração da base textual para a produção de um resumo em vídeo curto. |
 | **Dados para Infográfico**| "Extraia os dados comparativos (nome, propósito, multimodalidade) dos modelos Nova Micro, Lite, Pro e Premiere em formato de tabela." | Geração de dados organizados para a criação de um infográfico visual em uma ferramenta externa. |
 
-#### 🚀 Resultados
+#### Resultados
 
 O NotebookLM demonstrou ser uma ferramenta de **síntese e estruturação de conteúdo**. Em poucos minutos, foi possível transformar uma fonte única em múltiplos formatos prontos para consumo, estudo ou produção em outras plataformas. A fidelidade às fontes (citações automáticas) garantiu a precisão técnica em cada formato gerado.
 
