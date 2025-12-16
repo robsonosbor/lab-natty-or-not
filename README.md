@@ -1,51 +1,35 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
+## 🚀 Desafio de IA: Análise Completa de Vídeo com NotebookLM (Estudo de Caso)
 
-## 🚀 Introdução
+### 🌌 Agentes Autônomos: Múltiplos Formatos de Conteúdo a Partir de uma Única Transcrição
 
-> Woooow! Look at this 👀
+#### 📒 Descrição
 
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
+Esta experiência demonstra como o **NotebookLM** pode ser usado para transformar a transcrição de um vídeo técnico de 1 hora e 30 minutos em **múltiplos formatos de conteúdo** (texto, visual e didático) em minutos. O objetivo é otimizar o aprendizado e a criação de material educativo.
 
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
+#### 🤖 Tecnologia Utilizada
 
-### Objetivos
+* **NotebookLM (Google):** A ferramenta central para carregar a transcrição do vídeo, analisar o conteúdo e gerar todos os formatos de resumo, estudo e estrutura.
+* **Fonte:** Transcrição do vídeo "Construindo Agentes Autônomos com Amazon Nova e AgentCore" (Link: `https://www.youtube.com/watch?v=ZVilMA_Jfrw`).
+* **Notebook de Exemplo:** `https://notebooklm.google.com/notebook/f04156eb-434b-4b2f-abd5-b155fdee9592`
 
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
+#### 🧐 Processo de Criação (Ações Executadas no NotebookLM)
 
-### Template
+A transcrição completa do vídeo foi carregada como fonte. O painel de **Prompts** (ou "Assistente") do NotebookLM foi utilizado para gerar os seguintes ativos, todos referenciados à transcrição:
 
-```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+| Formato de Saída | Ação/Prompt no NotebookLM | Propósito |
+| :--- | :--- | :--- |
+| **Resumo em Texto** | "Gere um resumo executivo de 5 parágrafos sobre Agentes Autônomos, focando no ciclo de ação e nos modelos Amazon Nova." | Criação de um artigo rápido ou introdução de post de blog. |
+| **Mapa Mental** | "Crie um Mapa Mental estruturado com os três principais temas do vídeo (Conceitos, Amazon Nova e Bedrock Agent Core)." | Visualização hierárquica para estudo e compreensão da estrutura do conteúdo. |
+| **Cartões Didáticos** | "Gere 10 Cartões Didáticos (Flashcards) de Perguntas e Respostas sobre os termos mais técnicos do vídeo (Ex: 'Agent Core Runtime', 'Session ID', 'Nova Premiere')." | Fixação rápida de conceitos-chave e terminologia. |
+| **Estrutura de Apresentação** | "Crie um esboço de 10 slides para uma apresentação sobre 'Implementação de Agentes Autônomos em Produção', usando as informações do Bedrock Agent Core." | Geração de um roteiro pronto para ser transferido para o Google Slides ou PowerPoint. |
+| **Roteiro de Áudio** | "Crie um roteiro de 3 minutos em primeira pessoa para um podcast explicando a diferença entre a memória de curto e longo prazo no Agente." | Geração da base textual para narração de um resumo em áudio (podcast/audiobook). |
+| **Roteiro de Vídeo** | "Escreva um roteiro de 60 segundos com 5 cenas para um vídeo curto (Reel/TikTok) explicando o que é um Agente Autônomo." | Geração da base textual para a produção de um resumo em vídeo curto. |
+| **Dados para Infográfico**| "Extraia os dados comparativos (nome, propósito, multimodalidade) dos modelos Nova Micro, Lite, Pro e Premiere em formato de tabela." | Geração de dados organizados para a criação de um infográfico visual em uma ferramenta externa. |
 
-## 📒 Descrição
-Breve descrição do seu projeto
+#### 🚀 Resultados
 
-## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+O NotebookLM demonstrou ser uma ferramenta de **síntese e estruturação de conteúdo**. Em poucos minutos, foi possível transformar uma fonte única em múltiplos formatos prontos para consumo, estudo ou produção em outras plataformas. A fidelidade às fontes (citações automáticas) garantiu a precisão técnica em cada formato gerado.
 
-## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+#### 💭 Reflexão
 
-## 🚀 Resultados
-Apresente os resultados do seu projeto
-
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
-
-### Exemplos e Insigths
-
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
-
-## Links Interessantes
-
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
-
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
+A capacidade do NotebookLM de gerar simultaneamente material didático (Cartões e Mapas Mentais) e material de produção (Roteiros e Estruturas de Slides) a partir do mesmo documento-fonte prova seu valor como um **Hub de Conhecimento e Criação**. Ele não apenas resume, mas também **reformula** o conhecimento para diferentes objetivos.
