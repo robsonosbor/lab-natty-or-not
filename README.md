@@ -2,6 +2,8 @@
 
 ### 🌌 Agentes Autônomos: Múltiplos Formatos de Conteúdo a Partir de uma Única Transcrição
 
+![Infográfico](https://github.com/robsonosbor/lab-natty-or-not/blob/main/infografico.png)
+
 #### 📒 Descrição
 
 Esta experiência demonstra como o **NotebookLM** pode ser usado para transformar a transcrição de um vídeo técnico de 1 hora e 30 minutos em **múltiplos formatos de conteúdo** (texto, visual e didático) em minutos. O objetivo é otimizar o aprendizado e a criação de material educativo.
